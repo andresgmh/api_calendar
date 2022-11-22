@@ -1,0 +1,4 @@
+services:
+  api_calendar.calendar:
+    class: Drupal\api_calendar\Client\Calendar
+    arguments: [ '@entity_type.manager' ]

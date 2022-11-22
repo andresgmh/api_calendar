@@ -1,0 +1,5 @@
+name: Simple API for Events Calendar
+type: module
+description: 'Custom code for Fullcalendar implementation.'
+package: Custom
+core_version_requirement: ^8.7.7 || ^9

@@ -1,0 +1,9 @@
+custom_calendar.api.events:
+  path: '/api/calendar/events'
+  defaults:
+    _controller: 'Drupal\api_calendar\Controller\CalendarApiController::getEvents'
+    _title: 'Endpoint to get events data.'
+  methods:  [GET]
+  requirements:
+    _permission: 'access content'
+    _format: json
